@@ -1,3 +1,20 @@
+Metadata-Version: 2.4
+Name: miniscope-fullstack
+Version: 0.1.0
+Summary: Miniscope fluorescence and mechanical analysis toolkit
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: opencv-python
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: bokeh
+Requires-Dist: scipy
+Requires-Dist: streamlit>=1.30.0
+Dynamic: license-file
+
 # miniscope_fullstack
 
 Built for the data collected in collaboration with Michelle Phan, Karley Tioran, Yuqi Zhang, and Dyala Omar under the guidance of Dr. Huang and Prof. Gao from UCLA.

@@ -1,0 +1,8 @@
+numpy
+pandas
+opencv-python
+matplotlib
+scikit-learn
+bokeh
+scipy
+streamlit>=1.30.0
