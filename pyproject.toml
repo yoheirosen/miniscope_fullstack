@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "miniscope-fullstack"
+version = "0.1.0"
+description = "Miniscope fluorescence and mechanical analysis toolkit"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "pandas",
+  "opencv-python",
+  "matplotlib",
+  "scikit-learn",
+  "bokeh",
+  "scipy",
+  "streamlit>=1.30.0",
+]
+
+[tool.setuptools]
+py-modules = ["app", "batch_runner", "main", "main_mech", "streamlit_helpers", "vars"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = [
+  "miniscope_fullstack",
+  "helper_functions",
+  "helper_functions.*",
+  "scripts",
+  "scripts.*",
+  "comparison_of_transients",
+  "comparison_of_transients.*",
+  "metric_comparison",
+  "metric_comparison.*",
+]

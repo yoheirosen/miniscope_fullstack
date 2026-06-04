@@ -9,6 +9,10 @@ do source .miniscope/bin/activate or the equivalent
 python -m pip install -r requirements.txt
 python main.py
 
+Install as a module for use from another Python project:
+* python -m pip install -e .
+* python -c "import miniscope_fullstack.main; import miniscope_fullstack.helper_functions"
+
 To run the streamlit (for an easier UI)
 * pip install streamlit
 * pip install cellpose
